@@ -83,6 +83,7 @@ public class StockListFragment extends Fragment implements TabFragment, OnClickL
 
 	private final static int SWIPE_THRESHOLD_VELOCITY = 150;
 	private final static int STOCK_OVERVIEW_HEIGHT = 185;
+	public static Stock focusStock;
 
 	public enum StockOverviewState {
 		HIDDEN, OVERVIEW
@@ -298,6 +299,7 @@ public class StockListFragment extends Fragment implements TabFragment, OnClickL
 					stock.getStringPrice(),
 					stock.getStringChangeAndChangePercentage(),
 					resources.getString(R.string.application_name)));
+				focusStock = stock;
 		}
 
 		return intent;
