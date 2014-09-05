@@ -1,5 +1,16 @@
+#Stocktile wearable
+
+![stockwearable](https://github.com/ssegma/longhorn/blob/wear/stockwearable.jpg)
+
+Expend original Stocktile function to a wearable device, and send out stock change notification to wearable when it changes over certain limits.
+
+
+
 #Longhorn
 Longhorn is the code name of [Stocktile](https://play.google.com/store/apps/details?id=com.svpino.longhorn), an Android application to follow stock tickers from different markets around the world.
+
+
+
 
 Here is the application description as published on [Google Play](https://play.google.com/store/apps/details?id=com.svpino.longhorn):
 
