@@ -7,11 +7,13 @@ Expend original Stocktile function to a wearable device, and send out stock chan
 # How it works.
 
 1. Use yahoo YQL service to get quotes
+
 https://developer.yahoo.com/yql/console/?q=desc%20maps.map&env=store://datatables.org/alltableswithkeys#h=select+*+from+yahoo.finance.quotes+where+symbol+in+(%22FB%22%2C%22GOOG%22%2C%22BRCM%22)
 
 2. Parse JSON down to stock entities,.
 
 3. Display them..
+
 4. Send it out to Wearable
 
 
